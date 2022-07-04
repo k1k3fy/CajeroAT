@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("https://cdn2.dineroenimagen.com/media/dinero/styles/gallerie/public/images/2019/05/ecatepec.jpg");
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.login, .titulo{
+        
+    text-align: center;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+ }
+ .info-uc{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 15px;
+ }
+
+ .btn{
+    width: 150px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden ;
+}
+
+
+ 
+
+ h2{
+    color: #ffffff;
+    font-size: 50px;
+   display: flex;
+   justify-content: center;
+ }
+
+ 
+
+ label{
+    color: #ffffff;
+    font-size: 20px;
+ }
+ .btn2{
+    width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden ; 
+ }

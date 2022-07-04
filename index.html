@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cajeroATM</title>
+</head>
+<body>
+    <div class="info">
+        <form class="formato" action="">
+            <p><h1 class="titulo">BANCO EHECATL</h1></p>
+            <h2 class="login">LOGIN</h2>
+            <label class="info-uc" for="">Usuario</label>
+            <input type="text" name="usuario" id="">
+            <label class="info-uc" for="">Password</label>
+            <input type="password" name="contraseña" id="">
+            <input class="btn" type="button" value="ingresar" onclick="login(this.form)">
+        </form>
+    </div>
+    <main>
+    <h3 >Bienvenido a tu Cuenta Online</h3>
+    <label class="cuentas" for="">Cuenta 1 Saldo:</label>
+    <input type="text" name="cantidad1" id="c1" value="15000">
+    <label class="cuentas" for=""  >Cuenta 2 Saldo:</label>
+    <input type="text" name="cantidad2" id="c2" value="6000">
+    
+    <form class="form" action="" >
+        <h2 >Transferencias</h2>
+        <input class="input" type="text" name="" id="cant" placeholder="Cantidad">
+        <hr>
+        <input class="btn2" type="button" value="Transferencia de cuenta 1 a 2" id="btn2" onclick="formula()">
+        <input class="btn2" type="button" value="Transferencia de cuenta 2 a 1" id="btn3" onclick="formula2()">
+        <input class="btn2" type="button" value="Depositar a cuenta 1" id="btn4" onclick="formula3()">
+        <input class="btn2" type="button" value="Depositar a cuenta 2" id="btn5" onclick="formula4()">
+        <input class="btn2" type="button" value="Retirar de cuenta 1" id="btn6" onclick="formula5()">
+        <input class="btn2" type="button" value="Retirar de cuenta 2" id="btn7" onclick="formula6()">
+    </form>  
+    </main>
+
+  <script src="index.js"></script>
+    
+</body>
+</html>
